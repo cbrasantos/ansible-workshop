@@ -1,0 +1,11 @@
+---
+- name: Install nginx
+  apt:
+    name: nginx
+    state: present
+  
+- name: Copy index.html
+  copy:
+    src: website
+    dest: /var/www/html
+...
