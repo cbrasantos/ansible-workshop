@@ -15,3 +15,4 @@ Projeto realizado pelo instrutor Iago Ferreira pelo google meet, onde foram real
   ansible-playbook -i hosts playbook.yml
   ```
   
+# ansible-workshop
